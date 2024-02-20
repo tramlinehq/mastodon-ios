@@ -1,10 +1,7 @@
 name: Deploy App Store
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - develop
-      - release*
+
 jobs:
   deploy_appstore:
     name: Deploy App Store
